@@ -52,16 +52,6 @@ var cache = {
     'updated_at': null
 }
 
-var cached_geo = {
-    'data': null,
-    'updated': null,
-    'updating': false
-}
-// 3 Days
-// A good balance between not every day, but not as long as a week - when new
-// events may have been added
-var cached_geo_expiry_ms = 3 * 24 * 60 * 60 * 1000
-
 function traverse_geo_data(geo_data, region_name, depth=0) {
 
     // console.log('traverse_geo_data('+region_name+')')
@@ -353,18 +343,28 @@ function get_geo_data(notify_func, freshen=false) {
             function ( data_geo, data_tee ) {
                 // console.log('Processing returned data')
 
+                // For testing, lets wipe it
+                // data_geo = null
+                // cache.geo.raw_data = null
+                data_tee = null
+                cache.technical_event_information.raw_data = null
+
                 // We absolutely need the geo data, without which we can't do
                 // anything.
                 if (data_geo === null) {
                     // See if we have a previous one to fall back on
                     if (cache.geo.raw_data === null) {
                         // If not, send something back
+                        console.log('No data to go on!')
                         notify_geo_data(notify_func)
                         return
                     } else {
                         // Else make the best use of what we had previously
+                        console.log('Using previously obtained raw data')
                         data_geo = cache['geo'].raw_data
                     }
+                } else {
+                  console.log('Fresh data available')
                 }
 
                 // Check if we have technical event information and fall back if not
@@ -409,6 +409,7 @@ function get_geo_data(notify_func, freshen=false) {
         )
     } else {
         // Just return the cached data
+        console.log('Returning cached data for TEE & Geo Data')
         notify_geo_data(notify_func)
     }
 

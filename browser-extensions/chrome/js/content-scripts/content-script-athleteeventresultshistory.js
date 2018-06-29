@@ -138,8 +138,12 @@ function parse_volunteer_table(result) {
   return completed_volunteer_roles
 }
 
-function set_complete_progress_message() {
-   set_progress_message('Additional badges provided by <a href="https://running-challenges.co.uk" target="_blank">Running Challenges</a>')
+function set_complete_progress_message(errors) {
+  var messages = ['Additional badges provided by <a href="https://running-challenges.co.uk" target="_blank">Running Challenges</a>']
+  $.each(errors, function(index, error_message) {
+    messages.push(error_message)
+  })
+  set_progress_message(messages.join('<br/><br/>'))
 }
 
 function set_progress_message(progress_message) {
@@ -450,9 +454,15 @@ browser.storage.sync.get(["home_parkrun_info", "athlete_number"]).then((items) =
   return browser.runtime.sendMessage({data: "geo"});
 }).then((results) => {
   set_progress_message("Loaded geo data")
-  loaded_geo_data = results.geo
-  // console.log("Here is the geo data, fetched with a promise:")
-  // console.log(results)
+  console.log('Loaded geo data was:')
+  console.log(results.geo)
+  // The return packet will normally be valid even if the geo data is not contained
+  // within, so we do some sanity check here
+  if (results.geo && results.geo.data) {
+    loaded_geo_data = results.geo
+  } else {
+    console.log('Geo data rejected')
+  }
 
   set_progress_message("Loading volunteer data")
   // Now lets fetch the volunteer information
@@ -513,8 +523,14 @@ browser.storage.sync.get(["home_parkrun_info", "athlete_number"]).then((items) =
   add_challenge_results(id_map["main"], data)
   add_stats(id_map["stats"], data)
 
+  var errors = []
+  if (data.info.has_geo_data == false) {
+    errors.push('! Unable to fetch parkrun event location data: Maps and the Regionnaire challenge are not available !')
+  }
+
+
   // Add our final status message
-  set_complete_progress_message()
+  set_complete_progress_message(errors)
 
 }).catch(error => {
   console.log(error)
