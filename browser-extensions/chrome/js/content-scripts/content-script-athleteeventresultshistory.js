@@ -143,6 +143,9 @@ function set_complete_progress_message(errors) {
   $.each(errors, function(index, error_message) {
     messages.push(error_message)
   })
+  if (errors.length > 0) {
+    messages.push('Refresh the page to try again')
+  }
   set_progress_message(messages.join('<br/><br/>'))
 }
 
@@ -500,6 +503,7 @@ browser.storage.sync.get(["home_parkrun_info", "athlete_number"]).then((items) =
   data.info.is_our_page = (data.info.has_athlete_id && get_athlete_id() == loaded_user_data.athlete_number)
   // Convenience properties for the main sources of data
   data.info.has_geo_data = (data.geo_data !== undefined)
+  data.info.has_geo_technical_event_data = (data.geo_data !== undefined && (data.geo_data.data.event_status !== undefined))
   data.info.has_parkrun_results = (data.parkrun_results !== undefined)
 
   data.challenge_results = {
@@ -525,7 +529,10 @@ browser.storage.sync.get(["home_parkrun_info", "athlete_number"]).then((items) =
 
   var errors = []
   if (data.info.has_geo_data == false) {
-    errors.push('! Unable to fetch parkrun event location data: Maps and the Regionnaire challenge are not available !')
+    errors.push('! Unable to fetch parkrun event location data: Stats, Challenges, and Maps requiring locations are not available !')
+  }
+  if (data.info.has_geo_technical_event_data == false) {
+    errors.push('! Unable to fetch parkrun event status data: Stats and Challenges, e.g. Regionnaire, may include events that haven\'t started yet !')
   }
 
 
