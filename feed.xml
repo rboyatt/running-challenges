@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-07-22T22:43:55+01:00</updated><id>/</id><title type="html">Running Challenges</title><subtitle>Collect badges and complete challenges for running, jogging, walking, and volunteering at your weekly 5k parkrun. This browser extension adds extra information to your parkrun results page so you can see your progress.</subtitle><entry><title type="html">Firefox Support</title><link href="/firefox-addon/2018/07/21/firefox-support.html" rel="alternate" type="text/html" title="Firefox Support" /><published>2018-07-21T10:00:00+01:00</published><updated>2018-07-21T10:00:00+01:00</updated><id>/firefox-addon/2018/07/21/firefox-support</id><content type="html" xml:base="/firefox-addon/2018/07/21/firefox-support.html">&lt;p&gt;Now with Firefox support!&lt;/p&gt;
+
+&lt;p&gt;Quite a few of you have been waiting for this, so we are pleased to announce
+that there is now a version of the Chrome extension available for Firefox! Firefox
+add-ons are very similar to Chrome extensions and we were able to convert the bits
+of code that weren’t compatible into something that works in both browsers.&lt;/p&gt;
+
+&lt;p&gt;Publishing a Firefox add-on also has the added bonus of being available for
+Firefox for Android automatically - that’s right, Running Challenges has now gone
+mobile! The astute among you will notice that it is only Firefox on Android
+that is supported - add-ons are still not allowed on Apple mobile iOS devices,
+but just like the Chrome extension, it will work on a Mac laptop/desktop browser.&lt;/p&gt;
+
+&lt;h3 id=&quot;where-do-i-get-it&quot;&gt;Where do I get it?&lt;/h3&gt;
+
+&lt;p&gt;Running Challenges has been submitted to the Firefox Add-ons website, which you
+can find here: &lt;a href=&quot;https://addons.mozilla.org/en-GB/firefox/addon/running-challenges/&quot;&gt;https://addons.mozilla.org/en-GB/firefox/addon/running-challenges/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-if-it-doesnt-work&quot;&gt;What if it doesn’t work?&lt;/h3&gt;
+
+&lt;p&gt;We think it will work fine, but if it doesn’t, please email us and tell us as
+much as possible about what you were doing when something went wrong, and what
+environment you were in, e.g. what version you installed, what browser version
+you are using, and what configuration you had set, what URL you tried to load
+etc…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://addons.mozilla.org/en-GB/firefox/addon/running-challenges/&quot;&gt;&lt;img src=&quot;/img/firefox_web_store-172x60.png&quot; alt=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; title=&quot;Running Challenges in the Firefox Add-ons Web Store&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Now with Firefox support!</summary></entry><entry><title type="html">Version 0.6 Released</title><link href="/chrome-extension/release/2018/07/08/v0.6-released.html" rel="alternate" type="text/html" title="Version 0.6 Released" /><published>2018-07-08T20:00:00+01:00</published><updated>2018-07-08T20:00:00+01:00</updated><id>/chrome-extension/release/2018/07/08/v0.6-released</id><content type="html" xml:base="/chrome-extension/release/2018/07/08/v0.6-released.html">&lt;p&gt;Now with a Regionnaire map!&lt;/p&gt;
+
+&lt;p&gt;If you have already installed the extension it should update soon, if not you can get it
+from the &lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;Chrome WebStore&lt;/a&gt; today!&lt;/p&gt;
+
+&lt;p&gt;It has been a couple of weeks since the first maps burst on to the scene (along
+with the stats, in release 0.5), and the one glaring omission was the &lt;strong&gt;Regionnaire&lt;/strong&gt;
+challenge had no map - and you could argue that this is the one in most need of
+one! Well, wait no-longer, it now has its own shiny map, with lots of extra
+features over and above the other maps - read on to find out more…&lt;/p&gt;
+
+&lt;h3 id=&quot;what-does-the-map-do&quot;&gt;What does the map do?&lt;/h3&gt;
+
+&lt;p&gt;By default the map is available as the first thing under the Regionnaire
+challenge details, and is centred on your home parkrun (assuming it is set):&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/regionnaire-map-01-default.png&quot;&gt;&lt;img src=&quot;/img/posts/regionnaire-map-01-default.png&quot; alt=&quot;Default Regionnaire map&quot; title=&quot;Default Regionnaire map&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The map, like the others, can be made fullscreen, and that is definitely the
+best way to view it - there is a lot of information available, and it does need
+space to view it all.&lt;/p&gt;
+
+&lt;p&gt;If you zoom in towards a country of interest you can see that some countries
+have a small pie-chart to the right of the flag - these indicate that you have
+run at at least one of the parkruns in this country, and gives a quick visual
+indication as to how may you may have run at. You can hover over the flag or
+the pie-chart to get the exact numbers of events you’ve been to out of the total
+active events in that country:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/regionnaire-map-02-country.png&quot;&gt;&lt;img src=&quot;/img/posts/regionnaire-map-02-country.png&quot; alt=&quot;Country-centric Regionnaire map&quot; title=&quot;Country-centric Regionnaire map&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If the country is split into sub-regions, clicking on the flag will expand out
+the pie-charts to show one for each region:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/regionnaire-map-03-region.png&quot;&gt;&lt;img src=&quot;/img/posts/regionnaire-map-03-region.png&quot; alt=&quot;Regions Regionnaire map&quot; title=&quot;Regions Regionnaire map&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you click on a sub-region, you will be presented with the events that make up
+that region - coloured/shaped in the same was as the other maps, with green-rounded
+markers for events you have been to, and blue-squared markers for events you haven’t
+been to yet.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/regionnaire-map-04-expanded-region.png&quot;&gt;&lt;img src=&quot;/img/posts/regionnaire-map-04-expanded-region.png&quot; alt=&quot;Expanded regions Regionnaire map&quot; title=&quot;Expanded regions Regionnaire map&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;N.b. If the country has no separate sub-regions, you will get this type of view
+directly after clicking the country’s flag.&lt;/p&gt;
+
+&lt;p&gt;Hovering over a marker will give the name of the event, and you can click on a
+marker to give you a link directly to that course on the appropriate country’s
+website:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/regionnaire-map-05-expanded-region-close-up.png&quot;&gt;&lt;img src=&quot;/img/posts/regionnaire-map-05-expanded-region-close-up.png&quot; alt=&quot;Expanded regions Regionnaire map - close up&quot; title=&quot;Expanded regions Regionnaire map - close up&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Regionnaire map was quite tricky to do, so if there are bugs or errors in
+it please send us an email with as much information as you can so that we can
+try and reproduce the problem - usually your athlete number (or the athlete number
+of the page you were looking at), your configured home parkrun if it is your
+page, and some details of what you were doing and what went wrong is a good set of
+information to get going with.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;&lt;img src=&quot;/img/ChromeWebStore_BadgeWBorder_v2_206x58.png&quot; alt=&quot;Running Challenges in the Chrome Web Store&quot; title=&quot;Running Challenges in the Chrome Web Store&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Now with a Regionnaire map!</summary></entry><entry><title type="html">Version 0.5 Released</title><link href="/chrome-extension/release/2018/06/24/v0.5-released.html" rel="alternate" type="text/html" title="Version 0.5 Released" /><published>2018-06-24T21:00:00+01:00</published><updated>2018-06-24T21:00:00+01:00</updated><id>/chrome-extension/release/2018/06/24/v0.5-released</id><content type="html" xml:base="/chrome-extension/release/2018/06/24/v0.5-released.html">&lt;p&gt;Now including maps and stats!&lt;/p&gt;
+
+&lt;p&gt;If you have already installed the extension it should update soon, if not you can get it
+from the &lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;Chrome WebStore&lt;/a&gt; today!&lt;/p&gt;
+
+&lt;p&gt;It has been a couple of months since our last release, but we haven’t been
+twiddling our thumbs in that time…&lt;/p&gt;
+
+&lt;p&gt;The two big features in this version are the addition of maps to most challenges
+(with regionnaire being the biggest exception, but more on that later), and the
+inclusion of a brand new section at the top summarising lots of stats to get your
+inner geek salivating!&lt;/p&gt;
+
+&lt;h3 id=&quot;stats&quot;&gt;Stats&lt;/h3&gt;
+
+&lt;p&gt;The stats are displayed above the challenges, and just under the athlete stats
+that are provided by default on the parkrun website. Here we summarise some of
+the main pieces of information that parkrun tourists and stats geeks love to have,
+such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How many different events have I actually attended?&lt;/li&gt;
+  &lt;li&gt;What is the total distance I have run?&lt;/li&gt;
+  &lt;li&gt;What percentage of parkruns attended have been parkrun events I haven’t been to before?&lt;/li&gt;
+  &lt;li&gt;What is the total travel distance between each of the parkrun events I have done?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/stats.png&quot;&gt;&lt;img src=&quot;/img/posts/stats.png&quot; alt=&quot;Stats are now available&quot; title=&quot;Stats are now available&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Most of the stats are available on everyone’s page, which means that you can
+browse these details for other people just like on your own page, but there are
+are a few exceptions. If you have configured your home parkrun and athlete ID in
+the extension’s options page, then you will also get two additional stats to
+answer the questions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What is the nearest event I haven’t done yet?&lt;/li&gt;
+  &lt;li&gt;Which is the furthest away parkrun event I have been to?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;maps&quot;&gt;Maps&lt;/h3&gt;
+
+&lt;p&gt;Many of the challenges involve visiting specific parkruns - many are based on their
+name (e.g. the initial letter, or containing a word), but there are also those
+such as the Cowell Club that look for number of unique events. To help see where
+you have been, and perhaps help you find where are the closest parkrun events to
+help you complete a challenge, there are now maps to help you.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/maps.png&quot;&gt;&lt;img src=&quot;/img/posts/maps.png&quot; alt=&quot;Maps are now available&quot; title=&quot;Maps are now available&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There are 3 main types of icon on the map:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Green rounded markers indicate events you have already been to, and qualify for
+the challenge in question.&lt;/li&gt;
+  &lt;li&gt;Orange pentagonal markers indicate the closest set of events needed to complete
+the challenge.&lt;/li&gt;
+  &lt;li&gt;Blue square markers indicate qualifying events, just incase you happen to be
+somewhere on holiday, or further afield on a given weekend, and want to help progress
+a particular challenge towards completion.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The fourth type of marker is purple, and indicates your home parkrun. If you have
+run it, and it counts in the challenge it will be round, and if you need to run it
+it will be pentagonal, as per the list above. If the home parkrun fits none of these
+categories it is still displayed on your page, but will be a star shape.&lt;/p&gt;
+
+&lt;p&gt;If you visit someone else’s page, the purple marker will be missing entirely, as
+the home parkrun will be unknown.&lt;/p&gt;
+
+&lt;p&gt;If you are looking at your own page, then the Orange pentagonal markers are displayed
+automatically in the “Nearest Qualifying Events” layer. If you are on someone else’s
+page (or have not set your home parkrun in the options), then we cannot automatically
+tell what the home parkrun is, so all qualifying events appear in the “Other Qualifying Events”
+layer, which is not selected by default.&lt;/p&gt;
+
+&lt;p&gt;N.B. The “Other Qualifying Events” layer can slow things in your browser where
+there are a lot of eligible parkruns, e.g for the “Cowell Club”, where any event
+is fair game!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/map-layers.png&quot;&gt;&lt;img src=&quot;/img/posts/map-layers.png&quot; alt=&quot;Map layers&quot; title=&quot;Map layers&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have any feedback, good or bad, feel free to email us!&lt;/p&gt;
+
+&lt;h3 id=&quot;regionnaire-challenge&quot;&gt;Regionnaire Challenge&lt;/h3&gt;
+
+&lt;p&gt;The eagle eyed among you will have noticed that the Regionnaire challenge hasn’t
+got a map yet - well, we are still working on that, as it is the hardest one to
+display it in a good way, and we wanted to get the rest of the maps out for feedback
+whilst we worked on that more tricky problem!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;&lt;img src=&quot;/img/ChromeWebStore_BadgeWBorder_v2_206x58.png&quot; alt=&quot;Running Challenges in the Chrome Web Store&quot; title=&quot;Running Challenges in the Chrome Web Store&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Now including maps and stats!</summary></entry><entry><title type="html">2000 Users!</title><link href="/chrome-extension/milestone/2018/05/06/2000-users.html" rel="alternate" type="text/html" title="2000 Users!" /><published>2018-05-06T10:00:00+01:00</published><updated>2018-05-06T10:00:00+01:00</updated><id>/chrome-extension/milestone/2018/05/06/2000-users</id><content type="html" xml:base="/chrome-extension/milestone/2018/05/06/2000-users.html">&lt;p&gt;Wow, we’ve now got 2000 users!&lt;/p&gt;
+
+&lt;p&gt;In just under 2 months we’ve gone from nothing, to over 2000 parkrunners with
+the Chrome extension installed. To be honest we have been overwhelmed by the
+way the community have taken it to heart, and to hear it being referred to in
+casual conversation on Facebook and Twitter makes it feel like it has just
+become part of parkrun!&lt;/p&gt;
+
+&lt;p&gt;When we found parkrun founder Paul Sinton-Hewitt had liked our announcement post
+on Facebook we were chuffed, but to see parkrun COO Tom Williams and Xempo
+casually discussing who might have achieved the most Groundhog Days - that
+really made us smile.&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Awesome isn’t it. Loads of people I know have completed Finish Time Bingo (including &lt;a href=&quot;https://twitter.com/HelenTWilliams?ref_src=twsrc%5Etfw&quot;&gt;@HelenTWilliams&lt;/a&gt;, I’m on 59, annoyingly) but only one person I know (&lt;a href=&quot;https://twitter.com/gillifordyce?ref_src=twsrc%5Etfw&quot;&gt;@gillifordyce&lt;/a&gt;) has managed Groundhog Day! &lt;a href=&quot;https://t.co/1R4fh7enKa&quot;&gt;https://t.co/1R4fh7enKa&lt;/a&gt;&lt;/p&gt;&amp;mdash; Tom Williams (@tomwilliams1974) &lt;a href=&quot;https://twitter.com/tomwilliams1974/status/992446687506522112?ref_src=twsrc%5Etfw&quot;&gt;May 4, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Stats are a core part of parkrun; whether it be for knowing how many runs you have
+completed, age-graded scores, or average finishing times, and tracking the uptake
+of this extension is no exception :)&lt;/p&gt;
+
+&lt;p&gt;We don’t add any analytics to the extension itself, so we don’t know how many people
+have added a home parkrun, where those parkruns might be, or how many badges we
+had displayed for people - but the Google Webstore does show many installs/uninstalls
+of the extension have occurred, and therefore how many active installations there are.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/installations-to-2018-05-06.png&quot;&gt;&lt;img src=&quot;/img/posts/installations-to-2018-05-05.png&quot; alt=&quot;Two months of installs&quot; title=&quot;Two months of installs&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;̨&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/posts/users-to-2018-05-06.png&quot;&gt;&lt;img src=&quot;/img/posts/users-to-2018-05-05.png&quot; alt=&quot;Over 2000 Users&quot; title=&quot;Over 2000 Users&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;̨&lt;/p&gt;
+
+&lt;p&gt;There have been 3 main boosts to the number of installations, and we believe that
+they correspond to the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;10th March, announcement on the UK parkrun Tourists Facebook Group&lt;/li&gt;
+  &lt;li&gt;26th March, one of the Event Directors posted about it in the UK parkrun ED Group&lt;/li&gt;
+  &lt;li&gt;25th April, The extension was featured on the first episode of the &lt;a href=&quot;http://www.freeweeklytimed.com/&quot;&gt;Free Weekly Timed podcast!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It is not only UK parkrunners that have been adding this extension to their browser
+though. We also have users all over the world, with Australia forming the largest
+userbase outside of the UK. The top 3 are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;74% - UK&lt;/li&gt;
+  &lt;li&gt;16% - Australia&lt;/li&gt;
+  &lt;li&gt;4% - South Africa&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This has thrown up all sorts of interesting questions and comments, but the
+most frequent one from our fellow runners in Australia was that they already
+had a &lt;code class=&quot;highlighter-rouge&quot;&gt;Compass Club&lt;/code&gt; challenge, and that was to visit the most Northerly, Easterly,
+Southerly, and Westerly parkruns in Australia, compared to the current definition
+of runs with &lt;code class=&quot;highlighter-rouge&quot;&gt;north&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;south&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;east&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;west&lt;/code&gt; in the names - I think it is fair
+to say we weren’t expecting to have to cope with things like that when we started!&lt;/p&gt;
+
+&lt;p&gt;Also, we noticed that volunteering credits would not be applied for those parkrunners
+based in countries where the roles were displayed in the local language. Although
+a good proportion are in English, there was no credit for roles such as
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Assistant distribution des jetons&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Instruktor nowych uczestników&lt;/code&gt;, and
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Руководитель забега&lt;/code&gt; - so we introduced a means to translate as many examples as
+we could find in version &lt;code class=&quot;highlighter-rouge&quot;&gt;0.3&lt;/code&gt;. Now even more people can get in on the fun!&lt;/p&gt;
+
+&lt;p&gt;We also recently launched this website, and a Twitter account -
+&lt;a href=&quot;https://twitter.com/TeamTCMakers&quot;&gt;@TeamTCMakers&lt;/a&gt;, hopefully to keep everyone up
+to date with the new additions. As always you can contact us on our email account
+(link at the bottom of the page) if you want to get in touch.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;&lt;img src=&quot;/img/ChromeWebStore_BadgeWBorder_v2_206x58.png&quot; alt=&quot;Running Challenges in the Chrome Web Store&quot; title=&quot;Running Challenges in the Chrome Web Store&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Wow, we’ve now got 2000 users!</summary></entry><entry><title type="html">Version 0.4 Released</title><link href="/chrome-extension/release/2018/04/28/v0.4-released.html" rel="alternate" type="text/html" title="Version 0.4 Released" /><published>2018-04-28T17:00:00+01:00</published><updated>2018-04-28T17:00:00+01:00</updated><id>/chrome-extension/release/2018/04/28/v0.4-released</id><content type="html" xml:base="/chrome-extension/release/2018/04/28/v0.4-released.html">&lt;p&gt;Now including Malaysia!&lt;/p&gt;
+
+&lt;p&gt;If you have already installed the extension it should update soon, if not you can get it
+from the &lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;Chrome WebStore&lt;/a&gt; today!&lt;/p&gt;
+
+&lt;p&gt;This version now supports Malaysia (at least to the extent that &lt;a href=&quot;https://parkrun.my&quot;&gt;parkrun.my&lt;/a&gt; works).&lt;/p&gt;
+
+&lt;p&gt;We now have a flag for Malaysia, which is what most people would have seen was missing.
+We have not provided the links on the &lt;a href=&quot;https://parkrun.my&quot;&gt;parkrun.my&lt;/a&gt; site
+though as the ‘All Results’ page does not work - therefore there is no point
+trying to link to it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;&lt;img src=&quot;/img/ChromeWebStore_BadgeWBorder_v2_206x58.png&quot; alt=&quot;Running Challenges in the Chrome Web Store&quot; title=&quot;Running Challenges in the Chrome Web Store&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Now including Malaysia!</summary></entry><entry><title type="html">Version 0.3 Released</title><link href="/chrome-extension/release/2018/03/23/v0.3-released.html" rel="alternate" type="text/html" title="Version 0.3 Released" /><published>2018-03-23T20:00:00+00:00</published><updated>2018-03-23T20:00:00+00:00</updated><id>/chrome-extension/release/2018/03/23/v0.3-released</id><content type="html" xml:base="/chrome-extension/release/2018/03/23/v0.3-released.html">&lt;p&gt;Now including flags, the missing volunteer badges, and initial support for the
+remaining parkrun websites!&lt;/p&gt;
+
+&lt;p&gt;If you have already installed the extension it should update soon, if not you can get it
+from the &lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;Chrome WebStore&lt;/a&gt; today!&lt;/p&gt;
+
+&lt;p&gt;The flags are shown just below all the badges you have been awarded:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/screenshots/screenshot-06-badges-inc-flags.png&quot; alt=&quot;Athlete Profile Flags&quot; title=&quot;Athlete Profile Flags&quot; class=&quot;center-image image-border&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;&lt;img src=&quot;/img/ChromeWebStore_BadgeWBorder_v2_206x58.png&quot; alt=&quot;Running Challenges in the Chrome Web Store&quot; title=&quot;Running Challenges in the Chrome Web Store&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Now including flags, the missing volunteer badges, and initial support for the remaining parkrun websites!</summary></entry><entry><title type="html">Version 0.2 Released</title><link href="/chrome-extension/release/2018/03/13/v0.2-released.html" rel="alternate" type="text/html" title="Version 0.2 Released" /><published>2018-03-13T20:00:00+00:00</published><updated>2018-03-13T20:00:00+00:00</updated><id>/chrome-extension/release/2018/03/13/v0.2-released</id><content type="html" xml:base="/chrome-extension/release/2018/03/13/v0.2-released.html">&lt;p&gt;Now including volunteer badges!&lt;/p&gt;
+
+&lt;p&gt;If you have already installed the extension it should update soon, if not you can get it
+from the &lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;Chrome WebStore&lt;/a&gt; today!&lt;/p&gt;
+
+&lt;p&gt;The volunteer badges are, appropriately, purple, and are shown together with the
+green running badges:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/screenshots/screenshot-03-badges-inc-volunteer.png&quot; alt=&quot;Athlete Profile Volunteer Badges&quot; title=&quot;Athlete Profile Volunteer Badges&quot; class=&quot;center-image image-border&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition a separate section in the challenge progress table has been created
+to keep track of what volunteering roles have been completed, and how many times
+each one has been done:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/screenshots/screenshot-04-volunteer-challenges.png&quot; alt=&quot;Athlete Profile Volunteer Table&quot; title=&quot;Athlete Profile Volunteer Table&quot; class=&quot;center-image image-border&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;&lt;img src=&quot;/img/ChromeWebStore_BadgeWBorder_v2_206x58.png&quot; alt=&quot;Running Challenges in the Chrome Web Store&quot; title=&quot;Running Challenges in the Chrome Web Store&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Now including volunteer badges!</summary></entry><entry><title type="html">Version 0.1 Released</title><link href="/chrome-extension/release/2018/03/10/v0.1-released.html" rel="alternate" type="text/html" title="Version 0.1 Released" /><published>2018-03-10T20:00:00+00:00</published><updated>2018-03-10T20:00:00+00:00</updated><id>/chrome-extension/release/2018/03/10/v0.1-released</id><content type="html" xml:base="/chrome-extension/release/2018/03/10/v0.1-released.html">&lt;p&gt;Welcome to version 0.1 of the Running Challenges Chrome Extension!&lt;/p&gt;
+
+&lt;p&gt;This extension is the result of a week’s worth of development by &lt;a href=&quot;https://twitter.com/fraz3alpha&quot;&gt;Andy Taylor&lt;/a&gt;
+ &amp;amp; &lt;a href=&quot;https://twitter.com/lauracowen&quot;&gt;Laura Cowen&lt;/a&gt;. We saw how much fun people were
+ having on the &lt;a href=&quot;https://www.facebook.com/groups/571983126241545&quot;&gt;UK parkrun Tourists&lt;/a&gt;
+ Facebook Group and thought that the games people played with their results were
+ great, but very manual to work out. There seemed to be a proliferation of
+ individual Excel spreadsheets and various other ways of tracking, and it was
+ screaming out for some technical wizardry!&lt;/p&gt;
+
+&lt;p&gt;The extension works with the information available on your athlete results history
+page on the parkrun website to work out which challenges you have completed and
+display the appropriate set of badges at the top of the page, and the challenge
+progress in a table at the bottom of the page:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/screenshots/screenshot-01-badges.png&quot; alt=&quot;Athlete Profile Badges&quot; title=&quot;Athlete Profile Badges&quot; class=&quot;center-image image-border&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/screenshots/screenshot-02-table.png&quot; alt=&quot;Athlete Profile Challenge Progress Table&quot; title=&quot;Athlete Profile Challenge Progress Table&quot; class=&quot;center-image image-border&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Get it from the &lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;Chrome WebStore&lt;/a&gt; today!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/running-challenges/kdapmdimgdebpgolimjnmcdlkbkddoif&quot;&gt;&lt;img src=&quot;/img/ChromeWebStore_BadgeWBorder_v2_206x58.png&quot; alt=&quot;Running Challenges in the Chrome Web Store&quot; title=&quot;Running Challenges in the Chrome Web Store&quot; class=&quot;center-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Welcome to version 0.1 of the Running Challenges Chrome Extension!</summary></entry></feed>
