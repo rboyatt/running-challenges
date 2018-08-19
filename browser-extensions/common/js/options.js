@@ -20,6 +20,12 @@ function initial_page_setup() {
     $('#athlete_home_parkrun').change(function() {
         update_home_parkrun_country()
     })
+
+    // Watch for changes to localise challenges
+    $('#local_challenges').bind('keyup change', function() {
+        on_change_local_challenges();
+    })
+
     // Attach handler to catch when the beta checkbox is enabled, which
     // will allow us to set the extra information text
     // $('#enable_beta_features').change(function() {
@@ -50,6 +56,10 @@ function on_change_athlete_number() {
     } else {
         show_debug_elements(false)
     }
+}
+
+function on_change_local_challenges() {
+    var local_challenges = $('#local_challenges').val();
 }
 
 // function on_change_enable_beta_features() {
@@ -103,6 +113,7 @@ function save_user_configuration() {
 
     var athlete_number = $('#athlete_number').val();
     var athlete_home_parkrun = $('#athlete_home_parkrun').val();
+    var local_challenges = $('#local_challenges').val();	 
     // var enable_beta_features_checked = $('#enable_beta_features').prop('checked');
 
     // Build up our information that we want to save.
@@ -110,6 +121,7 @@ function save_user_configuration() {
     var saved_data = {
         athlete_number: athlete_number,
         home_parkrun_info: get_home_parkrun_info(athlete_home_parkrun),
+	local_challenges: local_challenges,    
         // enable_beta_features: enable_beta_features_checked
     }
 
@@ -135,12 +147,14 @@ function load_user_configuration() {
     browser.storage.local.get({
         athlete_number: '',
         home_parkrun_info: {},
+	local_challenges: 'all',    
         // enable_beta_features: false
     }).then(function(items) {
         // Store it on the page for future use
         saved_options = items
         console.log('Loaded: '+JSON.stringify(items))
         $('#athlete_number').val(items.athlete_number);
+	$('#local_challenges').val(items.local_challenges);    
         // Update the home parkrun dropdown with the loaded value, if present
         update_home_parkrun_dropdown()
         // update_enable_beta_features_checkbox(items.enable_beta_features)
