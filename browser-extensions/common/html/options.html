@@ -20,11 +20,19 @@ Home country: <span id="athlete_home_country_div">loading...</span>
 Challenges to include: <span id="local_challenges_div">
   <select id="local_challenges">
       <option value="all">All challenges</option>
-      <option value="local">Localise challenges</option>
-      <option value="general">Only general challenges</option>
+      <option value="local">Customise according to my home parkrun</option>
+      <option value="specify">Specify challenges</option>
   </select>
 </span>
 </p>
+<p>
+List of challenges:
+
+    <span id="challenges_div">loading...</span>
+
+</p>
+
+
 <p>
   <label id="enable_beta_features_label">
     <input id="enable_beta_features" type="checkbox"/>
@@ -72,6 +80,7 @@ Size (bytes): <span id='cached_geo_bytes'>unknown</span><br/>
 
 <script src="/js/lib/third-party/jquery/jquery-3.3.1.js"></script>
 <script src="/js/lib/third-party/browser-polyfill/browser-polyfill-76eeeac.js"></script>
+<script src="/js/lib/challenges.js"></script>
 <script src="/js/options.js"></script>
 
 </body>

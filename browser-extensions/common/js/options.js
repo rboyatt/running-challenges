@@ -121,7 +121,7 @@ function save_user_configuration() {
     var saved_data = {
         athlete_number: athlete_number,
         home_parkrun_info: get_home_parkrun_info(athlete_home_parkrun),
-	local_challenges: local_challenges,    
+	    local_challenges: local_challenges,
         // enable_beta_features: enable_beta_features_checked
     }
 
@@ -281,6 +281,7 @@ function update_home_parkrun_dropdown() {
 
     }
     update_home_parkrun_country()
+    //update_challenges_list()
 }
 
 function update_home_parkrun_country() {
@@ -299,6 +300,19 @@ function update_home_parkrun_country() {
     $("#home_parkrun_info").text(JSON.stringify(p_info, null, 4))
 
 }
+
+/*
+function update_challenges_list() {
+    var h_challenges_div = $("#challenges_div");
+
+    console.log("updating challenges");
+
+    challenges.forEach(function(e) {
+        h_challenges_div.text(e.data.name);
+    });
+
+}
+*/
 
 // Code to run when the document's DOM is ready
 $( document ).ready(function() {

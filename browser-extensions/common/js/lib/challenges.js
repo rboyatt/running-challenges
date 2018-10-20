@@ -4,16 +4,27 @@
  * is complete, how many subparts there are, and how far you have to go etc..
  */
 
+/*
+var challenges = [];
+
+challenges.push( { challengefunction: challenge_tourist, data : {
+  "shortname": "tourist",
+  "name": "Tourist",
+  "data": 20,
+  "help": "Run at 20+ different parkrun locations anywhere in the world."}
+});
+*/
+
 function generate_running_challenge_data(data) {
   // console.log(data)
   challenge_data = []
 
   if (data.parkrun_results) {
-    challenge_data.push(challenge_tourist(data, {
-      "shortname": "tourist",
-      "name": "Tourist",
-      "data": 20,
-      "help": "Run at 20+ different parkrun locations anywhere in the world."}))
+/*
+    challenges.forEach(function(e) {
+      this.challenge_data.push(e.challengefunction.call(this, data, e.data))
+    }, this);
+*/
     challenge_data.push(challenge_tourist(data, {
       "shortname": "cowell-club",
       "name": "Cowell Club",
